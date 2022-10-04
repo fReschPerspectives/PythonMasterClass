@@ -23,11 +23,7 @@ Output: "bbcaa"
 def string_sort(order: str, s: str)-> str:
     sorted_string = ""
 
-    letters = {}
-
-    for o in order:
-        letters.setdefault(o, 0)
-   
+    letters = dict.fromkeys(order, 0)
 
     for l in s:
         if l in letters:
