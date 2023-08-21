@@ -1,7 +1,9 @@
 """
 Find apartments with Ocean view 
 
-Input = Array of integers that represent the height of apartments. Left most apartment is in index 0 & the array lists the apartments from left to right. After the rightmost apartment, we hit the ocean. Apartments are of the same width and in a straight line from left to right towards the ocean.
+Input = Array of integers that represent the height of apartments. Left most apartment is in index 0 & the array lists
+the apartments from left to right. After the rightmost apartment, we hit the ocean. Apartments are of the same width and
+in a straight line from left to right towards the ocean.
 Output = Take in the Array and return the indexes of the apartments that have ocean view
 
 // Ocean View
